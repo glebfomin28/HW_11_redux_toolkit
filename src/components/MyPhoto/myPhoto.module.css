@@ -1,0 +1,36 @@
+.gallery {
+    display: flex;
+    padding: 15px;
+    min-height: 200px;
+    margin-top: 20px;
+    background-color: #ffcece;
+    border: 2px solid #1c1d38;
+    border-radius: 10px;
+    overflow-x: scroll;
+}
+.inputFile {
+    display: none;
+}
+.inputFile_button {
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid #1c1d38;
+    background-color: #ffcece;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.inputFile_button:hover {
+    background-color: #ceffd7;
+
+}
+.gallery__image {
+    margin: 0 10px;
+    width: 200px;
+    height: 200px;
+    transition: scale 1s;
+}
+
+.gallery__image:hover {
+    scale: 1.1;
+}
